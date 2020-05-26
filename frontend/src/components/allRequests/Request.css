@@ -1,0 +1,22 @@
+.hello {
+  width: 800px;  
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.info {
+    padding-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+.helpType{
+    color: #16a2b8;
+    padding-left: 10px;
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+.hight{
+  min-height: 75vh;
+  color: #000;
+}

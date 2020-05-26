@@ -1,0 +1,18 @@
+.profilePic {
+           border: 2px solid black;
+           border-radius: 50%;
+           background-color: aqua;
+           background-size: cover;
+           height: 200px;
+           width: 200px;
+           object-fit: cover;
+       }
+.hight{
+    min-height: 65vh;
+    color: #000;
+}
+
+.cardhight{
+    min-height: 50vh;
+    color: #000;
+}

@@ -1,0 +1,25 @@
+p.faq {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 14px;
+}
+ol.test {
+    list-style-type: circle;  
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+.faqback {
+    width: 100%;
+   height: 100%;
+    padding: 10px 0px;
+    margin: 20px;
+    background-image: url(../../images/homePageImage1.jpg);
+    background-position: unset;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.qback {
+    background-color: rgb(235, 235, 235);
+}

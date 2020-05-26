@@ -1,0 +1,32 @@
+.bannerlanding{
+    height: 85vmin;
+    background: url(../../images/COVIDIllustration.png)no-repeat center center fixed;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+  .ruby{
+      background-color:rgb(234, 236, 235);
+      max-width: none;
+  }
+  .banner-text {
+      padding: 85px;
+      text-align: left;
+      width: 75%;
+    color: black;
+
+  }
+
+  .planding {
+    color: black;
+    text-align: center;
+  }
+
+  .box {
+    width: 1140px;
+    height: 620px;
+    background: black;
+    opacity: 0.5;
+    border-radius: 5px;
+}

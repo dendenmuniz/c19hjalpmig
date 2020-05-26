@@ -1,0 +1,40 @@
+p.about {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+}
+
+.aboutback {
+    margin: 10px;
+    background-image: url(../../images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cardabout {
+    width: 100%;
+    box-sizing: 0px 0px 1px 1px #ccc;
+    position: relative;
+    margin: 0px auto;
+}
+
+.boxaubout {
+    width: 98%;
+    height: 950px;
+    padding: 20px;
+    background: black;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+.contentabout {
+    position: absolute;
+    width: 90%;
+    top: 30px;
+    left: 20px;
+    color: black;
+    font-size: 16px;
+}

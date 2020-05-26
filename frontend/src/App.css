@@ -1,0 +1,132 @@
+body {
+  min-height: 100vh;
+  background: whitesmoke;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.container{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+/********************* Footer ******************************/
+#footer {
+  width: 100%;
+  background-color: whitesmoke;
+  color: white;
+  padding-top:15px ;
+  position: absolute;
+}
+.footerElement{
+  width: 80%;
+  margin: 0 auto;
+}
+ul{
+  float : right;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+text-decoration: none;
+padding:20px;
+color: #c4c7c4;
+margin-top: 10px;
+}
+ul li a:hover{
+ color: white;
+ text-decoration: none;
+}
+  .info{
+    float: left;
+
+  }
+/*************************End Footer*************************/
+/* our team */
+.ourteam{
+  background: #f5f5f5;
+  padding: 50px;
+}
+
+.ourteam_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+  text-transform: uppercase;
+  text-align: center;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+h3.title{
+	margin-bottom: 20px;
+	color: #444444;
+  text-transform: uppercase;
+  text-align: center;
+	font-size: 30px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+.p.about {
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+}

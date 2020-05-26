@@ -1,0 +1,100 @@
+
+
+#chat{
+    display: grid;
+      grid-template-columns: 30% 70%;
+    max-width: 1120px;
+    max-height: 800px;
+    margin: 0 auto;
+    height: 85vh;
+    background: white;
+    border : 3px solid black;
+    border-radius: 20px;
+}
+
+.chatList{
+   padding: 5px;
+   overflow-y: scroll;
+   color: black;
+}
+.chats{
+    border-left : solid 3px black;
+}
+
+.chatMessage{
+    color: black;
+    height: 500px;
+    overflow-y: scroll;
+    border-bottom : 3px solid black;
+}
+
+.messageCard{
+    
+    height: 390px;
+    overflow-y: scroll;
+    
+}
+.between{
+    padding-left: 10px;
+}
+
+.chatTittle{
+    height: 50px;
+    padding-top: 10px;
+    border-bottom : 3px solid black;
+}
+
+.chatSend{
+    height: 20px;
+}
+.chatSend .box{
+    height: 100px;
+    background: none ;
+}
+.form{
+   display: inline-block;
+}
+.box{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 125px;
+    position: absolute;
+}
+.box input{
+    height: 40px;
+    width: 400px;
+    border : 2px gray solid;
+}
+.inputButton{
+    height: 40px;
+    border-radius: 10px;
+    border : 2px gray solid;
+}
+
+********************************************
+.hello {
+    width: 800px;  
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+  .info {
+      padding-top: 5px;
+      color: gray;
+      font-size: 12px;
+  }
+  .helpType{
+      color: #16a2b8;
+      padding-left: 10px;
+  }
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  .hight{
+    min-height: 75vh;
+    color: #000;
+  }

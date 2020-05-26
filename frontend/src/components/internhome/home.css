@@ -1,0 +1,17 @@
+.banner{
+    height: 85vmin;
+    background: url(./../../images/homePageImage1.jpg)center/cover no-repeat fixed;
+  }
+  .ruby{
+      background-color:rgb(234, 236, 235);
+      max-width: none;
+  }
+
+  .home-text {
+      
+    padding: 85px;
+    text-align: left;
+    width: 75%;
+    color: white;
+
+  }

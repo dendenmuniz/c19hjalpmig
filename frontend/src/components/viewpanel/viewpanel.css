@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+ .viewApp {
+    max-width: none;
+}
+.contactBanner{
+    width: 220vmin;
+    height: 20vmin;
+}
+.viewForm{
+    
+    margin : 0 auto;
+    text-align: left;
+    margin-top: 10px;
+}
+.p{
+    font-size:20px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
